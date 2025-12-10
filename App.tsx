@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LayoutDashboard, Users, FileCheck, HardHat, PlusCircle, Globe } from 'lucide-react';
+import { LayoutDashboard, FileCheck, HardHat, PlusCircle, Globe } from 'lucide-react';
 import CitizenView from './components/CitizenView';
 import OfficerView from './components/OfficerView';
 import SupervisorView from './components/SupervisorView';
