@@ -1,0 +1,8 @@
+{
+  "name": "Reboost Rajasthan",
+  "description": "A civic complaint resolution platform with GPS-locked photo verification and AI-powered work validation to prevent fraud.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
