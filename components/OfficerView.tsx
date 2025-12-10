@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Camera, MapPin, AlertCircle, CheckCircle, Clock, Navigation } from 'lucide-react';
+import { Camera, MapPin, CheckCircle, Clock, Navigation } from 'lucide-react';
 import { Complaint, Coordinates } from '../types';
 import { calculateDistance, generateJaipurCoordinates } from '../constants';
 
