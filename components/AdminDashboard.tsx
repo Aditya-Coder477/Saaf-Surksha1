@@ -1,7 +1,7 @@
 import React from 'react';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from 'recharts';
+import { XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from 'recharts';
 import { TrendingUp, Users, AlertCircle, CheckCircle } from 'lucide-react';
-import { Complaint, Officer } from '../types';
+import { Complaint } from '../types';
 import { OFFICERS } from '../constants';
 
 interface Props {
@@ -140,7 +140,7 @@ const AdminDashboard: React.FC<Props> = ({ complaints }) => {
                     paddingAngle={5}
                     dataKey="value"
                   >
-                    {issueData.map((entry, index) => (
+                    {issueData.map((_, index) => (
                       <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                     ))}
                   </Pie>
