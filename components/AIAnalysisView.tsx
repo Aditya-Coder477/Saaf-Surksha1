@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { ShieldCheck, Cpu, Map, Clock, Image, CheckCircle, XCircle } from 'lucide-react';
-import { Complaint, AIAnalysis } from '../types';
+import { ShieldCheck, Cpu, Map, Clock, Image, CheckCircle } from 'lucide-react';
+import { AIAnalysis } from '../types';
 
 interface Props {
   complaintId: string;
